@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+    <title>Chef Resturant</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="images/logo.jpg" alt=""></a>
+
+        <div id="menu-bar" class="fas fa-hamburger"></div>    
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#order">اطلب الآن</a></li>
+                <li><a href="#gallary">الشيف يجمعنا</a></li>
+                <li><a href="#popular">جديدنا</a></li>
+                <li><a href="#menu">القائمة</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#home" class="active"> الرئيسية</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+
+    <!--home section-->
+
+    <section class="home" id="home">
+        <div class="content" data-aos="fade-right">
+            <h3>صنع بحب من أجل معدتك</h3>
+            <p>برجر الشيف يقدم أجود أنواع اللحوم والخضروات الطازجة</p>
+            <a href="#"><button class="btn"> اطلب الآن</button></a>
+        </div>
+
+        <div class="image" data-aos="fade-up">
+            <img src="images/Bacon-Cheese-Burger-PNG-Transparent-Image.png" alt="">
+        </div>
+    </section>
+    
+    <!--about section-->
+    
+    <section id="about" class="about">
+        <div class="image" data-aos="fade-right"></div>
+
+        <div class="content" data-aos="fade-left">
+            <h3>من نحن</h3>
+            <p> برجر الشيف يقدم تشكيلة متنوعة من البرجر مع الخبز 
+                 الطازج، وألذ الصوصات السرية، مايميزنا أن جميع اللحوم المقدمة طرية وطازجة ومطبوخة بطريقة رائعة
+            </p>
+            
+            <a href="#"><button class="btn">اقرأ أكثر</button></a>
+        </div>
+    </section>
+
+    <!--menu section-->
+
+    <section id="menu" class="menu">
+  
+        <h1 class="heading" ><span>قائمتنا</span> الشهية</h1>
+
+        <ul class="list" data-aos="fade-down">
+            <li class="btn" id="btn4" data-src="images/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg">المشروبات</li>
+            <li class="btn" id="btn3" data-src="images/pexels-photo-1893555.jpeg">الأطباق الجانبية </li>
+            <li class="btn" id="btn2" data-src="images/pexels-photo-2271107.jpeg">الوجبات</li>
+            <li class="btn active" id="btn1" data-src="images/pexels-photo-6896379.jpeg">البرجر</li>
+        </ul>
+
+        <div class="row" data-aos="fade-right">
+
+            <div class="image">
+                <img src="images/pexels-photo-6896379.jpeg" id="menu-img" alt="">
+            </div>
+
+            <div class="content" id="p1">
+                <div class="info"> 
+                    <h3><span>01.</span>برجر لحم</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span>برجر دجاج</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>03.</span>برجر جمبري</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>04.</span>برجر كلاسيك</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+            </div>
+
+            <div class="content" id="p2">
+                <div class="info"> 
+                    <h3><span>01.</span> وجبة برجر لحم</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span> وجبة برجر دجاج</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>03.</span> وجبة برجر جمبري</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+                <div class="info"> 
+                    <h3><span>04.</span> وجبة برجر كلاسيك</h3>
+                    <p>لحم بالجبنه والبصل والطماطم</p>
+                </div>
+            </div>
+
+            <div class="content" id="p3">
+                <div class="info"> 
+                    <h3><span>01.</span> بطاطس مقلي</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span> بطاطس مشوي</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span> بطاطس بالجبنة</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>03.</span>حلقات البصل </h3>
+                    <p></p>
+                </div>
+                
+            </div>
+
+            <div class="content" id="p4">
+                <div class="info"> 
+                    <h3><span>01.</span> ماء</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span> سفن اب</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>02.</span> بيبسي</h3>
+                    <p></p>
+                </div>
+                <div class="info"> 
+                    <h3><span>03.</span>عصير البرتقال  </h3>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--new section-->
+
+    <section class="popular" id="popular">
+        <h1 class="heading" ><span>جديد </span> الشيف</h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <img src="images/pexels-photo-1213710.jpeg" alt="">
+                <h3>سلطة الأفوكادو </h3>
+                <div class="price">20 rs</div>
+                <a href="#"><button class="btn">أضف للسلة</button></a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <img src="images/pexels-photo-1893555.jpeg" alt="">
+                <h3>بطاطا حلوة</h3>
+                <div class="price">20 rs</div>
+                <a href="#"><button class="btn">أضف للسلة</button></a>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <img src="images/pexels-photo-9328461.jpeg" alt="">
+                <h3>برجر الطبقات</h3>
+                <div class="price">20 rs</div>
+                <a href="#"><button class="btn">أضف للسلة</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--family section-->
+
+    <section class="gallery" id="gallary">
+        <h1 class="heading" >الشيف <span> يجمعنا </span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/Mix-Burgers-6-Beef-6-Chicken-Box.jpg" alt="">
+                <h3> بوكس العائلة يتكون من: 6 برجر لحم 6 برجر دجاج، بطاطس، حلقات البصل، أجنحة الدجاج، خمسة صوصات</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/DVNGomYUQAAkmaD.jpg" alt="">
+                <h3>بوكس العائلة يتكون من: 6 برجر لحم 6 برجر دجاج، بطاطس </h3>
+            </div>
+
+            
+
+            
+        </div>
+    </section>
+
+    <!--order section-->
+
+    <section class="order" id="order">
+
+        <h1 class="heading"> جهز <span>طلبك</span> </h1>
+        
+        <div class="row">
+        
+            <form action="" data-aos="fade-right">
+                <input type="text" placeholder="your name" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <input type="number" placeholder="your number" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+                <input type="submit" value="تأكيد الطلب" class="btn">
+            </form>
+        
+            <div class="image" data-aos="fade-left">
+                <img src="images/pexels-photo-3219483.jpeg" alt="">
+            </div>
+        
+        </div>
+        
+        </section>
+
+        <!--footer section-->
+
+        <div class="footer">
+
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-map-marker-alt"></i> jeddah, saudi arabia </p>
+                    <p> <i class="fas fa-envelope"></i> chif@gmail.com </p>
+                    <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                    <p> <i class="fas fa-phone"></i> +111-222-333 </p>
+                </div>
+        
+                <div class="box">
+                    <h3>branch location</h3>
+                    <a href="#">jeddah</a>
+                    <a href="#">makkah</a>
+                    <a href="#">ryiadh</a>
+                    <a href="#">medina</a>
+                </div>
+        
+                <div class="box">
+                    <h3>quick links </h3>
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#popular">popular</a>
+                    <a href="#gallary">gallery</a>
+                    <a href="#order">order</a>
+                </div>
+        
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">instagram</a>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>
+                </div>
+        
+            </div>
+        
+            <h1 class="credit">create by <a href="#">bayan alsharif</a> all rights reserved. </h1>
+        
+        </div>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- initializing aos  -->
+
+   <script>
+       AOS.init({
+    delay:200,
+    duration:800
+})
+   </script>
+
+
+</body>
+</html>
